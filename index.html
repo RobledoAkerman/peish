@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Componentes -->
+    <link rel="stylesheet" href="./components/header.css" />
+    <script defer src="./components/header.js"></script>
+
+    <link rel="stylesheet" href="./components/form.css" />
+    <script defer src="./components/form.js"></script>
+
+    <link rel="stylesheet" href="./components/footer.css" />
+    <script defer src="./components/footer.js"></script>
+
+    <title>PAJARO DE JAULA</title>
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <section class="seccion-header"></section>
+    <section class="entrada">
+      <div class="entrada-content"></div>
+    </section>
+    <template id="entrada-card-template">
+      <div class="entrada-card">
+        <div class="entrada-img-content">
+          <img src="" alt="imagen" class="entrada-img" />
+        </div>
+        <div class="entrada-card-content">
+          <h4 class="entrada-card-title"></h4>
+          <p class="entrada-card-text"></p>
+          <a href="" class="entrada-card-link">
+            <button class="entrada-card-link-button">VER</button>
+          </a>
+        </div>
+      </div>
+    </template>
+    <div class="seccion-contacto"></div>
+  </body>
+  <section class="seccion-footer"></section>
+</html>

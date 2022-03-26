@@ -6,7 +6,8 @@ function addWorkCard(params) {
     params.title;
 
   template.content.querySelector(".entrada-card-text").textContent =
-    params.description;
+    // params.description;
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatibus accusantium ab commodi esse repellendus officia obcaecati incidunt sint, eaque perspiciatis et omnis possimus quam velit, dolorem iste ea asperiores."
 
   template.content.querySelector(".entrada-img").src = params.image;
 

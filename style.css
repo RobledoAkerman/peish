@@ -8,6 +8,14 @@
     font-size: 18px;
     background-color: #F0F7F4;
   }
+  .portada{
+    width: auto;
+    height: 222px;
+    color: #9C6644;
+    text-align: center;
+    margin: 20px;
+    border: solid 1px #9C6644;
+  }
   .entrada {
   }
   .entrada-title {
@@ -66,7 +74,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 255px;
+    height: 400px;
     padding: 20px;
   }
   .entrada-card-title {
@@ -79,6 +87,8 @@
   }
   .entrada-card-text {
     margin: 0;
+
+    overflow:auto;
   }
   .entrada-card-text::selection {
     background: #9C6644;

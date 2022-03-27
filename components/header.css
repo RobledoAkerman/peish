@@ -11,7 +11,7 @@ body {
 .seccion__header {
   position: sticky;
   top: 0;
-  background-color: #7F5539;
+  background-color: #7f5539;
   color: #e9f5db;
   display: flex;
   flex-direction: row;
@@ -35,6 +35,11 @@ body {
 }
 .header__logo__img:hover {
   box-shadow: 0 0 25px #e9f5db;
+}
+
+.header__logo__img::selection {
+  background: #9c6644;
+  color: #fff;
 }
 .header__burger-menu {
   display: flex;
@@ -80,7 +85,7 @@ body {
   height: 50px;
   width: 50px;
   color: #e9f5db;
-  background-color: #7F5539;
+  background-color: #7f5539;
 }
 .cerrar-ventana:hover {
   box-shadow: 0 0 25px #e9f5db;
@@ -96,13 +101,14 @@ body {
 
 .header__menu-contacto {
   font-size: 32px;
-  color: #7F5539;
+  color: #7f5539;
   text-decoration: none;
 }
 
 .menu-navegacion {
   display: none;
 }
+
 
 @media (min-width: 690px) {
   .menu-navegacion {
@@ -116,3 +122,7 @@ body {
   text-decoration: none;
   color: #e9f5db;
 }
+.header__contacto::selection {
+  background: #9C6644;
+  color: #fff;
+} 

@@ -16,6 +16,10 @@
     margin: 20px;
     border: solid 1px #9C6644;
   }
+  .portada::selection {
+    background: #9C6644;
+    color: #fff;
+  }
   .entrada {
   }
   .entrada-title {
@@ -70,6 +74,10 @@
     width: 100%;
     object-fit: cover;
   }
+  .entrada-img::selection {
+    background: #9C6644;
+    color: #fff;
+  }
   .entrada-card-content {
     display: flex;
     flex-direction: column;
@@ -120,6 +128,10 @@
   }
   .entrada-card-link-button:active {
     box-shadow: 0 0 24px #B08968;
+  }
+  .entrada-card-link-button::selection {
+    background: #9C6644;
+    color: #fff;
   }
   .seccion-footer {
     height: 493px;

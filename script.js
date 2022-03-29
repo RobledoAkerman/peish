@@ -6,12 +6,13 @@ function addWorkCard(params) {
     params.title;
 
   template.content.querySelector(".entrada-card-text").textContent =
-    // params.description;
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatibus accusantium ab commodi esse repellendus officia obcaecati incidunt sint, eaque perspiciatis et omnis possimus quam velit, dolorem iste ea asperiores."
+    params.description;
+    // "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatibus accusantium ab commodi esse repellendus officia obcaecati incidunt sint, eaque perspiciatis et omnis possimus quam velit, dolorem iste ea asperiores."
 
+  // template.content.querySelector(".entrada-card-longtext").src = params.image;
   template.content.querySelector(".entrada-img").src = params.image;
 
-  template.content.querySelector(".entrada-card-link").href = params.image;
+  // template.content.querySelector(".entrada-card-link").href = params.image;
 
   const clone = document.importNode(template.content, true);
   container.appendChild(clone);
@@ -27,9 +28,10 @@ function getWorks() {
       const fieldsCollections = data.items.map((i) => {
         return {
           title: i.fields.titulo,
-          description: i.fields.descripcion,
+          description: i.fields.descripcion.content[0].content[0].value,
           imageID: i.fields.foto.sys.id,
           includes: data.includes.Asset,
+
         };
       });
 

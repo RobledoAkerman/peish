@@ -1,3 +1,11 @@
+:root {
+  --main-a: #feebca;
+  --main-b: #f4cca8;
+  --main-c: #dba38c;
+  --main-d: #482217;
+  --main-e: #4f4b30;
+  --main-f: #908760;
+}
 * {
     box-sizing: border-box;
   }

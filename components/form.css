@@ -1,3 +1,11 @@
+:root {
+  --main-a: #feebca;
+  --main-b: #f4cca8;
+  --main-c: #dba38c;
+  --main-d: #482217;
+  --main-e: #4f4b30;
+  --main-f: #908760;
+}
 * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
@@ -13,7 +21,7 @@ body {
   justify-content: center;
   padding: 20px;
   height: 667px;
-  background-color: #7F5539;
+  background-color: var(--main-e);
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   font-size: 18px;
@@ -27,7 +35,7 @@ body {
   font-weight: bold;
 }
 .contacto__title::selection {
-  background: #9C6644;
+  background: var(--main-f);
   color: #fff;
 }
 
@@ -58,6 +66,7 @@ body {
   flex-direction: column;
   gap: 25px;
   margin-bottom: 30px;
+  max-width: 500px;
 }
 @media (min-width: 900px) {
   .form {
@@ -70,7 +79,7 @@ body {
   margin-bottom: 10px;
 }
 .label::selection {
-  background: #9C6644;
+  background: var(--main-f);
   color: #fff;
 }
 
@@ -80,6 +89,7 @@ body {
   height: 45px;
   border: none;
   border-radius: 4px;
+  color: var(--main-e)
 }
 
 .input-mensaje {
@@ -87,39 +97,39 @@ body {
   height: 90px;
   border: none;
   border-radius: 4px;
+  color: var(--main-e)
 }
 
 .input-nombre::selection {
-  background: #9C6644;
+  background: var(--main-f);
   color: #fff;
 }
 .input-email::selection {
-  background: #9C6644;
+  background: var(--main-f);
   color: #fff;
 }
 .input-mensaje::selection {
-  background: #9C6644;
+  background: var(--main-f);
   color: #fff;
 }
-
 
 .boton {
   height: 50px;
   font-family: "Poppins", sans-serif;
   margin-top: 40px;
-  background-color: #ffebb5;
-  color: #7F5539;
+  background-color: var(--main-f);
+  color: var(--main-e);
   border: none;
   border-radius: 4px;
-  font-weight: bold;
 }
 .boton:hover {
-  background-color: #fdcd95;
+  background-color: var(--main-a);
 }
 .boton:active {
-  box-shadow: 0 0 24px #ffebb5;
+  box-shadow: 0 0 24px var(--main-b);
 }
 .boton::selection {
-  background: #9C6644;
+  background: var(--main-e);
   color: #fff;
 }
+

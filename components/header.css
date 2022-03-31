@@ -1,3 +1,12 @@
+:root {
+  --main-a: #feebca;
+  --main-b: #f4cca8;
+  --main-c: #dba38c;
+  --main-d: #482217;
+  --main-e: #4f4b30;
+  --main-f: #908760;
+}
+
 * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
@@ -11,7 +20,7 @@ body {
 .seccion__header {
   position: sticky;
   top: 0;
-  background-color: #7f5539;
+  background-color: var(--main-e);
   color: #e9f5db;
   display: flex;
   flex-direction: row;
@@ -85,7 +94,7 @@ body {
   height: 50px;
   width: 50px;
   color: #e9f5db;
-  background-color: #7f5539;
+  background-color: var(--main-e);
 }
 .cerrar-ventana:hover {
   box-shadow: 0 0 25px #e9f5db;
@@ -101,7 +110,7 @@ body {
 
 .header__menu-contacto {
   font-size: 32px;
-  color: #7f5539;
+  color: var(--main-e);
   text-decoration: none;
 }
 

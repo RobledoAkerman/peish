@@ -1,5 +1,13 @@
+:root {
+  --main-a: #feebca;
+  --main-b: #f4cca8;
+  --main-c: #dba38c;
+  --main-d: #482217;
+  --main-e: #4f4b30;
+  --main-f: #908760;
+}
 .seccion-footer {
-  background-color: #F0F7F4;
+  background-color: var(--main-a);
   height: 493px;
   padding: 20px;
   display: flex;
@@ -34,19 +42,20 @@ footer{
   display: block;
 }
 .footer__logo__img::selection {
-  background: #9C6644;
+  background: var(--main-e);
+  color: #fff;
 }
 
 
 .footer__logo__derechos-reservados, .footer__logo__desarrollado-por {
-  color: #7F5539;
+  color: var(--main-e);
 }
 .footer__logo__derechos-reservados::selection {
-  background: #9C6644;
+  background: var(--main-e);
   color: #fff;
 }
 
 .footer__logo__desarrollado-por::selection {
-  background: #9C6644;
+  background: var(--main-e);
   color: #fff;
 }

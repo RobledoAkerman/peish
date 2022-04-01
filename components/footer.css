@@ -42,20 +42,20 @@ footer{
   display: block;
 }
 .footer__logo__img::selection {
-  background: var(--main-e);
+  background: var(--main-f);
   color: #fff;
 }
 
 
 .footer__logo__derechos-reservados, .footer__logo__desarrollado-por {
-  color: var(--main-e);
+  color: var(--main-d);
 }
 .footer__logo__derechos-reservados::selection {
-  background: var(--main-e);
+  background: var(--main-f);
   color: #fff;
 }
 
 .footer__logo__desarrollado-por::selection {
-  background: var(--main-e);
+  background: var(--main-f);
   color: #fff;
 }

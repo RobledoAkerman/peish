@@ -20,7 +20,10 @@ body {
 .seccion__header {
   position: sticky;
   top: 0;
-  background-color: var(--main-e);
+  /* background-color: var(--main-d); */
+  background-image: url(../img/flores.png);
+  background-repeat: no-repeat;
+  background-position: center;
   color: #e9f5db;
   display: flex;
   flex-direction: row;
@@ -94,7 +97,7 @@ body {
   height: 50px;
   width: 50px;
   color: #e9f5db;
-  background-color: var(--main-e);
+  background-color: var(--main-d);
 }
 .cerrar-ventana:hover {
   box-shadow: 0 0 25px #e9f5db;
@@ -110,7 +113,7 @@ body {
 
 .header__menu-contacto {
   font-size: 32px;
-  color: var(--main-e);
+  color: var(--main-d);
   text-decoration: none;
 }
 
@@ -129,9 +132,9 @@ body {
 .header__contacto {
   font-size: 24px;
   text-decoration: none;
-  color: #e9f5db;
+  color: var(--main-d);
 }
 .header__contacto::selection {
-  background: #9C6644;
+  background: var(--main-f);
   color: #fff;
 } 

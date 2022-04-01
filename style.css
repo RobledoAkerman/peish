@@ -7,6 +7,8 @@
   --main-f: #908760;
 }
 
+
+
 * {
     box-sizing: border-box;
   }
@@ -17,18 +19,25 @@
     font-size: 18px;
     background-color: var(--main-a);
   }
-  .portada{
+  .titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* .portada{
     width: auto;
-    height: 222px;
-    color: var(--main-e);
+    height:100px;
+    color: var(--main-d);
+    background-image: url(./img/titulo.png);
+    background-repeat: no-repeat;
     text-align: center;
     margin: 20px;
-    border: solid 1px var(--main-e);
+    border: solid 1px var(--main-d);
   }
   .portada::selection {
-    background: var(--main-e);
+    background: var(--main-f);
     color: #fff;
-  }
+  } */
   .entrada {
   }
   .entrada-title {
@@ -43,11 +52,13 @@
 
   }
   .entrada-content {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 40px;
+    padding-top: 0;
     display: grid;
     gap: 30px;
     background-color: var(--main-a);
+    background-image: url(./img/fondo.png);
   }
   @media (min-width: 640px) {
     .entrada-content {
@@ -84,7 +95,7 @@
     object-fit: cover;
   }
   .entrada-img::selection {
-    background: var(--main-e);
+    background: var(--main-f);
     color: #fff;
   }
   .entrada-card-content {
@@ -97,19 +108,19 @@
   .entrada-card-title {
     font-size: 30px;
     margin: 0;
-    color: var(--main-e);
+    color: var(--main-d);
   }
   .entrada-card-title::selection {
-    background: var(--main-e);
+    background: var(--main-f);
     color: #fff;
   }
   .entrada-card-text {
     margin: 0;
-    color: var(--main-e);
-    overflow:auto;
+    color: var(--main-d);
+    overflow:hidden;
   }
   .entrada-card-text::selection {
-    background: var(--main-e);
+    background: var(--main-f);
     color: #fff;
   }
   .entrada-card-link {
@@ -122,7 +133,7 @@
   .entrada-card-link-button {
     height: 50px;
     font-family: "Poppins", sans-serif;
-    background-color: var(--main-e);
+    background-color: var(--main-d);
     color: var(--main-b);
     border: none;
     border-radius: 4px;
@@ -133,14 +144,14 @@
     text-align: center;
   }
   .entrada-card-link-button:hover {
-    color: var(--main-e);
+    color: var(--main-d);
     background-color: var(--main-b);
   }
   .entrada-card-link-button:active {
-    box-shadow: 0 0 24px var(--main-e);
+    box-shadow: 0 0 24px var(--main-d);
   }
   .entrada-card-link-button::selection {
-    background: var(--main-e);
+    background: var(--main-f);
     color: #fff;
   }
   .seccion-footer {

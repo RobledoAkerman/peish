@@ -19,10 +19,16 @@
     font-size: 18px;
     background-color: var(--main-a);
   }
-  .titulo{
+  /* .titulo{
     display: flex;
     align-items: center;
     justify-content: center;
+  } */
+  .titulo{
+    font-family: 'Send Flowers', cursive;
+    font-size: 72px;
+    text-align: center;
+    color: var(--main-e);
   }
   /* .portada{
     width: auto;

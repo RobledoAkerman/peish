@@ -1,0 +1,224 @@
+:root {
+  --main-a: #feebca;
+  --main-b: #f4cca8;
+  --main-c: #dba38c;
+  --main-d: #482217;
+  --main-e: #4f4b30;
+  --main-f: #908760;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    font-size: 18px;
+    background-color: var(--main-a);
+  }
+  /* .titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  .titulo{
+    font-family: 'Send Flowers', cursive;
+    font-size: 72px;
+    text-align: center;
+    color: var(--main-e);
+  }
+  /* .portada{
+    width: auto;
+    height:100px;
+    color: var(--main-d);
+    background-image: url(./img/titulo.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 20px;
+    border: solid 1px var(--main-d);
+  }
+  .portada::selection {
+    background: var(--main-f);
+    color: #fff;
+  } */
+  .entrada {
+  }
+  .entrada-title {
+    font-size: 38px;
+    margin: 40 20px 0 0px;
+    text-align: center;
+  }
+  .entrada-description {
+    font-size: 24px;
+    margin: 7px 20px 0 20px;
+    text-align: center;
+
+  }
+  .entrada-content {
+    /* margin-top: 20px; */
+    padding: 40px;
+    padding-top: 0;
+    display: grid;
+    gap: 30px;
+    background-color: var(--main-a);
+    background-image: url(./img/fondo.png);
+  }
+  @media (min-width: 640px) {
+    .entrada-content {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (min-width: 960px) {
+    .entrada-content {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  .entrada-img-content {
+    padding: 20px;
+  }
+  .entrada-card:hover {
+    /* box-shadow: 0 0 20px #7F5539; */
+  }
+  .entrada-card {
+    /* border: solid 2px #7F5539;
+    border-radius: 10px; */
+    flex-grow: 1;
+    width: 100%;
+  }
+  .entrada-img-content {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .entrada-img {
+    height: 444px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .entrada-img::selection {
+    background: var(--main-f);
+    color: #fff;
+  }
+  .entrada-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    padding: 20px;
+  }
+  .entrada-card-title {
+    font-size: 30px;
+    margin: 0;
+    color: var(--main-d);
+  }
+  .entrada-card-title::selection {
+    background: var(--main-f);
+    color: #fff;
+  }
+  .entrada-card-text {
+    margin: 0;
+    color: var(--main-d);
+    overflow:hidden;
+  }
+  .entrada-card-text::selection {
+    background: var(--main-f);
+    color: #fff;
+  }
+  .entrada-card-link {
+    color: var(--main-f);
+    display: block;
+    text-align: right;
+    margin: auto 0 0 auto;
+    width: 100%;
+  }
+  .entrada-card-link-button {
+    height: 50px;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--main-d);
+    color: var(--main-b);
+    border: none;
+    border-radius: 4px;
+    /* font-weight: bold; */
+    width: 100%;
+    max-width: 380px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .entrada-card-link-button:hover {
+    color: var(--main-d);
+    background-color: var(--main-b);
+  }
+  .entrada-card-link-button:active {
+    box-shadow: 0 0 24px var(--main-d);
+  }
+  .entrada-card-link-button::selection {
+    background: var(--main-f);
+    color: #fff;
+  }
+  .seccion-footer {
+    height: 493px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  @media (min-width: 900px) {
+    .seccion-footer {
+      height: 493px;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+  
+  .logo-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .imagen-logo-footer {
+    width: 120px;
+    height: 120px;
+    display: block;
+  }
+  
+  .derechos-reservados {
+  }
+  
+  .redes-sociales {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px auto auto auto;
+  }
+  
+  .red-social {
+    margin-top: 25px;
+    display: flex;
+    align-content: center;
+  }
+  
+  .logo-linkedin,
+  .logo-github {
+    width: 30px;
+    height: 30px;
+    display: inline;
+    margin: auto 0;
+  }
+  
+  .linkedin,
+  .github {
+    display: inline;
+    margin: auto 8px;
+  }
+  .red-social:hover {
+    box-shadow: 0 0 20px var(--main-f);
+  }
+  

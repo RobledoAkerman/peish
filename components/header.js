@@ -12,7 +12,7 @@ function headerComponent(element) {
     <div class="header__menu-ventana">
       <button class="cerrar-ventana">X</button>
       <div class="ventana__contenido">
-        <a href="./contacto.html" class="header__menu-contacto">Contacto</a>
+        <a href=".contacto.html" class="header__menu-contacto">Contacto</a>
       </div>
     </div>
 <!-- FIN MENU DESPLEGABLE -->

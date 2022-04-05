@@ -34,6 +34,11 @@ body {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+@media (max-width: 444px) {
+  .seccion__header {
+    background-image: none;
+  }
+}
 
 .header__logo {
   display: flex;
@@ -121,7 +126,6 @@ body {
   display: none;
 }
 
-
 @media (min-width: 690px) {
   .menu-navegacion {
     display: flex;
@@ -137,4 +141,4 @@ body {
 .header__contacto::selection {
   background: var(--main-f);
   color: #fff;
-} 
+}
